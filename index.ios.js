@@ -29,7 +29,11 @@ export default class MySwiftDemo extends Component {
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
-        <SampleView style={{flex:1}} />
+
+          <View style={{width:200,height:200,flex:1}}>
+              <SampleView style={{flex:1}} />
+          </View>
+
       </View>
     );
   }
