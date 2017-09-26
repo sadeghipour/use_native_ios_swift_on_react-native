@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "b3a3816df0e05315652f89754d72b784"
+build_time: [559405970, 348679000]
+inputs:
+  "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/MySwiftDemo/SampleView.swift": [559405723, 0]
+  "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/MySwiftDemo/SampleViewManager.swift": [559392164, 0]

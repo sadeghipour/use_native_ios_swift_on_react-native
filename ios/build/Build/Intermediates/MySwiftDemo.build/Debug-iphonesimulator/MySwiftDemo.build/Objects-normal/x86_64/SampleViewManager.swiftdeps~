@@ -1,0 +1,142 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SampleViewManager"
+provides-nominal:
+- "C11MySwiftDemo17SampleViewManager"
+provides-member:
+- ["C11MySwiftDemo17SampleViewManager", ""]
+provides-dynamic-lookup:
+- "view"
+depends-top-level:
+- "RCTViewManager"
+- !private "SampleView"
+- "SampleViewManager"
+- "UIView"
+depends-member:
+- !private ["Ps9AnyObject", "SampleView"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["Ps7CVarArg", "SampleView"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "SampleView"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "SampleView"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "SampleView"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "SampleView"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "init"]
+- !private ["CSo8NSObject", "SampleView"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "view"]
+- !private ["PSo16NSObjectProtocol", "SampleView"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo15RCTBridgeModule", "SampleView"]
+- !private ["PSo15RCTBridgeModule", "init"]
+- ["PSo15RCTBridgeModule", ""]
+- !private ["PSo12RCTComponent", "init"]
+- !private ["CSo14RCTViewManager", "SampleView"]
+- ["CSo14RCTViewManager", "UIView"]
+- ["CSo14RCTViewManager", "init"]
+- ["CSo14RCTViewManager", "view"]
+- ["CSo14RCTViewManager", ""]
+- !private ["C11MySwiftDemo10SampleView", "init"]
+- !private ["C11MySwiftDemo17SampleViewManager", "SampleView"]
+- ["C11MySwiftDemo17SampleViewManager", "UIView"]
+- ["C11MySwiftDemo17SampleViewManager", "deinit"]
+- ["C11MySwiftDemo17SampleViewManager", "init"]
+- ["C11MySwiftDemo17SampleViewManager", "view"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["CSo6UIView", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps9_Hashable", "SampleView"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo15RCTBridgeModule"
+- !private "PSo12RCTComponent"
+- "CSo14RCTViewManager"
+- !private "C11MySwiftDemo10SampleView"
+- "C11MySwiftDemo17SampleViewManager"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Base/RCTBridge.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Base/RCTBridgeModule.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Views/RCTBorderStyle.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Views/RCTTextDecorationLineType.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Views/RCTAnimationType.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Base/RCTFrameUpdate.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Base/RCTBridgeDelegate.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Base/RCTInvalidating.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Base/RCTLog.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/MySwiftDemo-Bridging-Header.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Base/RCTJavaScriptLoader.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Views/RCTViewManager.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Base/RCTEventDispatcher.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Base/RCTDefines.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/CSSLayout/CSSMacros.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Views/RCTPointerEvents.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Views/UIView+React.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Views/RCTComponent.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Base/RCTAssert.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/Base/RCTConvert.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/../node_modules/react-native/React/CSSLayout/CSSLayout.h"
+- "/Users/Ali/Projects/Libraries/test01/pure-swift-views-react-native/ios/Pods/Headers/Public/youtube-ios-player-helper/YTPlayerView.h"
+interface-hash: "03fa74b9ccaa09c3ca5313f59bfc7b20"
