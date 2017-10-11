@@ -11,5 +11,9 @@
 
 @interface RCT_EXTERN_MODULE(SampleViewManager, RCTViewManager)
 
+//RCT_EXPORT_VIEW_PROPERTY(showVideo, BOOL)
+
+RCT_EXTERN_METHOD(showVideo:(id *) videoCode :(id *) width :( id *) height)
+
 @end
 

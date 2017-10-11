@@ -141,18 +141,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 @class YTPlayerView;
-@class UIButton;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11MySwiftDemo10SampleView")
 @interface SampleView : UIView <YTPlayerViewDelegate>
 @property (nonatomic, strong) YTPlayerView * _Nonnull youtubeView;
-@property (nonatomic, strong) UIButton * _Nonnull btn;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (void)actionBtnWithSender:(UIButton * _Nonnull)sender;
-- (void)playerViewDidBecomeReady:(YTPlayerView * _Nonnull)playerView;
-- (void)playerView:(YTPlayerView * _Nonnull)playerView didPlayTime:(float)playTime;
-- (void)playYoutube;
+- (void)showVideoWithVideoCode:(NSString * _Nonnull)videoCode viewSize:(NSArray<NSNumber *> * _Nonnull)viewSize;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 

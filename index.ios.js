@@ -9,29 +9,28 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+    Dimensions
 } from 'react-native';
 
-const SampleView = require('./SampleView.ios.js');
+const YoutubeComponent = require('./YoutubeComponent.ios.js');
+const {width,height} = Dimensions.get('window');
+//import {YoutubeComponent} from 'YoutubeComponent.ios';
 
 export default class MySwiftDemo extends Component {
 
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Nativepppppp!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
 
-          <View style={{width:200,height:200,flex:1}}>
-              <SampleView style={{flex:1}} />
+    calcPercent(percent,dim){
+
+        return (dim * percent) / 100
+    }
+
+  render() {
+
+    return (
+      <View>
+          <View style={{width:this.calcPercent(50,width),height:this.calcPercent(20,height)}}>
+              <YoutubeComponent showVideo={{videoId:"r0RGG1uFnQc",width:this.calcPercent(50,width),height:this.calcPercent(20,height)}} />
           </View>
 
       </View>

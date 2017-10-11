@@ -8,52 +8,35 @@
 
 import UIKit
 
+@objc(SampleView)
 class SampleView: UIView,YTPlayerViewDelegate {
-  var youtubeView: YTPlayerView = YTPlayerView(frame: CGRect(x: 0, y: 50, width: 200, height: 200))
-  var btn:UIButton = UIButton(frame: CGRect(x:0 ,  y: 0 , width: 200 , height: 50 ))
-  
+  var youtubeView: YTPlayerView = YTPlayerView()
+  let screenSize = UIScreen.main.bounds
+  var screenWidth:(Any)? = nil
+  var screenHeight:(Any)? = nil
   override init(frame: CGRect) {
     super.init(frame: frame)
+    self.screenWidth = screenSize.width
+    self.screenHeight = screenSize.height
+  }
+  
+  @objc func showVideoYoutube(_ videoCode: Any, _ width:Any , _ height:Any)->Void{
+    
+    DispatchQueue.global(qos: .userInitiated).async {
+      DispatchQueue.main.async {
+        self.youtubeView.load(withVideoId: videoCode as! String)
+        
+        let w = ((self.screenWidth as! CGFloat) * (width as! CGFloat)) / 100
+        let h = ((self.screenHeight as! CGFloat) * (height as! CGFloat)) / 100
+        self.youtubeView.frame = CGRect(x: 0, y: 0, width: width as! CGFloat , height: height as! CGFloat)
+        self.addSubview(self.youtubeView)
+      }
+    }
+    
+    
+  }
+  
 
-    self.frame = CGRect(x: 0, y: 0, width: 600, height: 600)
-    self.backgroundColor = UIColor.blue
-    self.youtubeView.load(withVideoId: "rek9rOV5kNw")
-    
-    let gesture = UITapGestureRecognizer(target: self, action: Selector(("playYoutube:")))
-    self.addGestureRecognizer(gesture)
-    self.addSubview(youtubeView)
-    
-    self.btn.backgroundColor = UIColor.red
-    self.btn.setTitle("BTN ACTİON", for: .normal)
-    self.btn.addTarget(self, action: Selector(("actionBtn:")), for: UIControlEvents.touchUpInside)
-    self.addSubview(self.btn)
-    
-    
-    
-  }
-  
-  
-  func actionBtn(sender: UIButton){
-    print("btn");
-  }
-  
-  func playerViewDidBecomeReady(_ playerView: YTPlayerView) {
-    self.playYoutube()
-    print("AAAAAA")
-  }
-  
-  func playerView(_ playerView: YTPlayerView, didPlayTime playTime: Float) {
-    print("BBBBBB")
-  }
-  
-  
-  
-  
-  
-  func playYoutube(){
-    self.playerView(self.youtubeView, didPlayTime: 0.0)
-  }
-  
   required init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }

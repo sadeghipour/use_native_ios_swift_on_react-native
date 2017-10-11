@@ -867,12 +867,13 @@
 				);
 				INFOPLIST_FILE = MySwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.MySwiftDemoAlisch;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.MySwiftDemo01;
 				PRODUCT_NAME = MySwiftDemo;
 				SWIFT_OBJC_BRIDGING_HEADER = "MySwiftDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -897,12 +898,13 @@
 				);
 				INFOPLIST_FILE = MySwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.MySwiftDemoAlisch;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.MySwiftDemo01;
 				PRODUCT_NAME = MySwiftDemo;
 				SWIFT_OBJC_BRIDGING_HEADER = "MySwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

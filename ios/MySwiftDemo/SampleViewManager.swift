@@ -8,10 +8,14 @@
 
 import UIKit
 @objc(SampleViewManager)
-class SampleViewManager : RCTViewManager {
+class SampleViewManager : RCTViewManager,YTPlayerViewDelegate {
+  @objc let samleView : SampleView = SampleView()
   
   override func view() -> UIView! {
-    return SampleView();
+    return samleView;
   }
-  
+
+  @objc func showVideo(_ videoCode:Any, _ width:Any , _ height:Any){
+    self.samleView.showVideoYoutube(videoCode, width , height)
+  }
 }

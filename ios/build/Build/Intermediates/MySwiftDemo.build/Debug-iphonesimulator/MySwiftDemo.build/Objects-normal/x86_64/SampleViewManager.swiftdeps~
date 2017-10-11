@@ -66,6 +66,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "init"]
 - !private ["PSo18UITraitEnvironment", "init"]
 - !private ["CSo6UIView", "init"]
+- !private ["PSo20YTPlayerViewDelegate", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
 - !private ["Ps9_Hashable", "SampleView"]
 - !private ["Ps9_Hashable", "init"]
@@ -97,6 +98,7 @@ depends-nominal:
 - !private "PSo30UIResponderStandardEditActions"
 - !private "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
+- !private "PSo20YTPlayerViewDelegate"
 - !private "Ps37_DefaultCustomPlaygroundQuickLookable"
 - "Ps9_Hashable"
 depends-dynamic-lookup:
